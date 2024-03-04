@@ -10,4 +10,8 @@ public class SampleController {
     public String helloWorld(){
         return "Hello world....";
     }
+    @GetMapping("/checking-changes")
+    public String checkingChanges(){
+        return "Changes Made Successfully..";
+    }
 }
